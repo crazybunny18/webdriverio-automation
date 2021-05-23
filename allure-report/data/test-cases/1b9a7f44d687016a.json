@@ -1,0 +1,213 @@
+{
+  "uid" : "1b9a7f44d687016a",
+  "name" : "When I login with jagdishnayak4@gmail.com",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.When I login with jagdishnayak4@gmail.com",
+  "historyId" : "7c8cdd9860e84fbdb158978753c732f6",
+  "time" : {
+    "start" : 1621744523893,
+    "stop" : 1621744528245,
+    "duration" : 4352
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621744523898,
+        "stop" : 1621744523978,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4046e98360dabacd",
+        "name" : "Request",
+        "source" : "4046e98360dabacd.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "db9094ace8e7ea9b",
+        "name" : "Response",
+        "source" : "db9094ace8e7ea9b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c5a36868-7aac-4655-8a1e-ec3102748453/click",
+      "time" : {
+        "start" : 1621744524014,
+        "stop" : 1621744527542,
+        "duration" : 3528
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621744527544,
+        "stop" : 1621744527616,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a560cddfd863f41f",
+        "name" : "Request",
+        "source" : "a560cddfd863f41f.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "32ac1ff18f0bb625",
+        "name" : "Response",
+        "source" : "32ac1ff18f0bb625.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c9a522d0-fd38-4f32-be2e-108ff32d9c2b/clear",
+      "time" : {
+        "start" : 1621744527624,
+        "stop" : 1621744527752,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c9a522d0-fd38-4f32-be2e-108ff32d9c2b/value",
+      "time" : {
+        "start" : 1621744527767,
+        "stop" : 1621744528063,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac0f691081b01e38",
+        "name" : "Request",
+        "source" : "ac0f691081b01e38.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621744528064,
+        "stop" : 1621744528113,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4757e4d6a5fbd2f2",
+        "name" : "Request",
+        "source" : "4757e4d6a5fbd2f2.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "c798e512d6e92cdc",
+        "name" : "Response",
+        "source" : "c798e512d6e92cdc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/74e2e741-3c6f-457c-9d42-bd2275f0cd9a/click",
+      "time" : {
+        "start" : 1621744528119,
+        "stop" : 1621744528244,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with jagdishnayak4@gmail.com"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b9a7f44d687016a.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

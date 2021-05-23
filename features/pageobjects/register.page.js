@@ -53,7 +53,7 @@ class RegisterPage extends Page {
         await (await this.addressaliasBox).setValue(addressalias);
         await (await this.RegisterBtn).click();
         await (await this.passwordBox).setValue(password);
-        //await (await this.RegisterBtn).click();
+        await (await this.RegisterBtn).click();
        
     }
 

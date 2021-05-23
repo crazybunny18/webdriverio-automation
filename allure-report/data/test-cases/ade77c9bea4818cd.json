@@ -1,0 +1,1040 @@
+{
+  "uid" : "ade77c9bea4818cd",
+  "name" : "Then I should Sign Out",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.Then I should Sign Out",
+  "historyId" : "2a6e7c16f4222ef8a7f82aa056a07790",
+  "time" : {
+    "start" : 1621768422272,
+    "stop" : 1621768432320,
+    "duration" : 10048
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.wrapCommandFn (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at SignOutPage.signout (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\pageobjects\\signout.page.js:20:9)\n                    at World.<anonymous> (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\step-definitions\\steps.js:35:5)\n                    at World.executeAsync (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at Element.wrapCommandFn (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at SignOutPage.signout (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\pageobjects\\signout.page.js:20:9)\n                    at World.<anonymous> (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\step-definitions\\steps.js:35:5)\n                    at World.executeAsync (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at World.testFrameworkFnWrapper (C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621768422273,
+        "stop" : 1621768422299,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e582d1851f567b6",
+        "name" : "Request",
+        "source" : "5e582d1851f567b6.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "9c2600678f6833d5",
+        "name" : "Response",
+        "source" : "9c2600678f6833d5.json",
+        "type" : "application/json",
+        "size" : 1064
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768422303,
+        "stop" : 1621768422321,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fbc0810e4fc9154",
+        "name" : "Request",
+        "source" : "1fbc0810e4fc9154.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "8429d96eb7125dad",
+        "name" : "Response",
+        "source" : "8429d96eb7125dad.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768422809,
+        "stop" : 1621768422823,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37861215fabb36ba",
+        "name" : "Request",
+        "source" : "37861215fabb36ba.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "56958a6dfb9a84aa",
+        "name" : "Response",
+        "source" : "56958a6dfb9a84aa.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768423312,
+        "stop" : 1621768423325,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f17c284233c2a7d",
+        "name" : "Request",
+        "source" : "4f17c284233c2a7d.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "f3351b1fcfeb2118",
+        "name" : "Response",
+        "source" : "f3351b1fcfeb2118.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768423812,
+        "stop" : 1621768423824,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b68bd1e8c2f6337",
+        "name" : "Request",
+        "source" : "6b68bd1e8c2f6337.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "56db8103c71bb3f2",
+        "name" : "Response",
+        "source" : "56db8103c71bb3f2.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768424312,
+        "stop" : 1621768424326,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92bcd11395e94554",
+        "name" : "Request",
+        "source" : "92bcd11395e94554.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "fac3eb60f2855cb2",
+        "name" : "Response",
+        "source" : "fac3eb60f2855cb2.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768424817,
+        "stop" : 1621768424829,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0fbe9de6d048b3f",
+        "name" : "Request",
+        "source" : "f0fbe9de6d048b3f.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "2a608e2e2e665c65",
+        "name" : "Response",
+        "source" : "2a608e2e2e665c65.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768425307,
+        "stop" : 1621768425318,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56600b82b03ac034",
+        "name" : "Request",
+        "source" : "56600b82b03ac034.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "acd81c4c0d03f811",
+        "name" : "Response",
+        "source" : "acd81c4c0d03f811.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768425809,
+        "stop" : 1621768425820,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71dd32d484d16e4a",
+        "name" : "Request",
+        "source" : "71dd32d484d16e4a.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "f9024cdfb171a879",
+        "name" : "Response",
+        "source" : "f9024cdfb171a879.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768426310,
+        "stop" : 1621768426332,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4de98066ab00d94",
+        "name" : "Request",
+        "source" : "4de98066ab00d94.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "a8103d3bc8193584",
+        "name" : "Response",
+        "source" : "a8103d3bc8193584.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768426810,
+        "stop" : 1621768426822,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c28a4e6f60071cf",
+        "name" : "Request",
+        "source" : "6c28a4e6f60071cf.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "28a3d882812278d9",
+        "name" : "Response",
+        "source" : "28a3d882812278d9.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768427313,
+        "stop" : 1621768427323,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd5c6d718f8e88ed",
+        "name" : "Request",
+        "source" : "fd5c6d718f8e88ed.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "9cc4b77ac032e1f3",
+        "name" : "Response",
+        "source" : "9cc4b77ac032e1f3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768427815,
+        "stop" : 1621768427828,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a614da748afe4b03",
+        "name" : "Request",
+        "source" : "a614da748afe4b03.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "c6895504554482a6",
+        "name" : "Response",
+        "source" : "c6895504554482a6.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768428316,
+        "stop" : 1621768428328,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "696799eb725fdb9a",
+        "name" : "Request",
+        "source" : "696799eb725fdb9a.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "f2490127ceab63df",
+        "name" : "Response",
+        "source" : "f2490127ceab63df.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768428813,
+        "stop" : 1621768428825,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60f9f85c08356da5",
+        "name" : "Request",
+        "source" : "60f9f85c08356da5.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "c9c8a202281e4f7f",
+        "name" : "Response",
+        "source" : "c9c8a202281e4f7f.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768429309,
+        "stop" : 1621768429319,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d461dcc2071b89a",
+        "name" : "Request",
+        "source" : "3d461dcc2071b89a.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "2a6eca30b91626bb",
+        "name" : "Response",
+        "source" : "2a6eca30b91626bb.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768429807,
+        "stop" : 1621768429818,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c77d42f23c5dc302",
+        "name" : "Request",
+        "source" : "c77d42f23c5dc302.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "81ea5b29ced3c88b",
+        "name" : "Response",
+        "source" : "81ea5b29ced3c88b.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768430307,
+        "stop" : 1621768430319,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cd183668dfe1a50",
+        "name" : "Request",
+        "source" : "6cd183668dfe1a50.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "9318c35e1d1511d8",
+        "name" : "Response",
+        "source" : "9318c35e1d1511d8.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768430805,
+        "stop" : 1621768430816,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70bb6928f59e4ba0",
+        "name" : "Request",
+        "source" : "70bb6928f59e4ba0.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "3aaf5d370400c931",
+        "name" : "Response",
+        "source" : "3aaf5d370400c931.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768431309,
+        "stop" : 1621768431321,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbf61f98345807d1",
+        "name" : "Request",
+        "source" : "cbf61f98345807d1.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "5f45655d6b4fd1c3",
+        "name" : "Response",
+        "source" : "5f45655d6b4fd1c3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1621768431812,
+        "stop" : 1621768431825,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dadc528b616b226",
+        "name" : "Request",
+        "source" : "6dadc528b616b226.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "41db42e4d53b4d21",
+        "name" : "Response",
+        "source" : "41db42e4d53b4d21.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 42,
+    "hasContent" : true,
+    "stepsCount" : 21
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should Sign Out"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71e32f01d17f5708",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621768121431,
+        "stop" : 1621768131458,
+        "duration" : 10027
+      }
+    }, {
+      "uid" : "7bcb28ee51ae06b3",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621768059370,
+        "stop" : 1621768069403,
+        "duration" : 10033
+      }
+    }, {
+      "uid" : "333095947fb14af8",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621767954111,
+        "stop" : 1621767964187,
+        "duration" : 10076
+      }
+    }, {
+      "uid" : "6be6edbc344700af",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621767870525,
+        "stop" : 1621767880078,
+        "duration" : 9553
+      }
+    }, {
+      "uid" : "39b170cba92ef768",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621766666130,
+        "stop" : 1621766676181,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "95473f680afbb510",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621766312825,
+        "stop" : 1621766322861,
+        "duration" : 10036
+      }
+    }, {
+      "uid" : "f9fee567211f0958",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621766241984,
+        "stop" : 1621766252031,
+        "duration" : 10047
+      }
+    }, {
+      "uid" : "699676a870800b94",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621766096442,
+        "stop" : 1621766106482,
+        "duration" : 10040
+      }
+    }, {
+      "uid" : "c21a19d7fb22ecf3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621765956661,
+        "stop" : 0,
+        "duration" : -1621765956661
+      }
+    }, {
+      "uid" : "f8dd74fe77f6ca2d",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621755711492,
+        "stop" : 1621755721529,
+        "duration" : 10037
+      }
+    }, {
+      "uid" : "6e368a22c6e62ddd",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621754630955,
+        "stop" : 1621754640995,
+        "duration" : 10040
+      }
+    }, {
+      "uid" : "97ae8b5961ab878b",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621745378099,
+        "stop" : 1621745388168,
+        "duration" : 10069
+      }
+    }, {
+      "uid" : "5582a8a43bcb09e9",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621745104574,
+        "stop" : 1621745114670,
+        "duration" : 10096
+      }
+    }, {
+      "uid" : "a511b6aa41ecccbc",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621745008695,
+        "stop" : 1621745018773,
+        "duration" : 10078
+      }
+    }, {
+      "uid" : "752c27340b8c73e3",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744885976,
+        "stop" : 1621744896053,
+        "duration" : 10077
+      }
+    }, {
+      "uid" : "c7d749eac8681172",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744790786,
+        "stop" : 1621744800395,
+        "duration" : 9609
+      }
+    }, {
+      "uid" : "6f2f76913c60e78a",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744716868,
+        "stop" : 1621744726554,
+        "duration" : 9686
+      }
+    }, {
+      "uid" : "2a75e11a845c1298",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744547081,
+        "stop" : 1621744557170,
+        "duration" : 10089
+      }
+    }, {
+      "uid" : "786dda7943ac3049",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744450128,
+        "stop" : 1621744460237,
+        "duration" : 10109
+      }
+    }, {
+      "uid" : "d5ad1c3c638263cc",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621744316136,
+        "stop" : 1621744326253,
+        "duration" : 10117
+      }
+    }, {
+      "uid" : "477bdfb02e10fa9b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621743963841,
+        "stop" : 0,
+        "duration" : -1621743963841
+      }
+    }, {
+      "uid" : "fcf717433c82f48",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621743850875,
+        "stop" : 1621743860978,
+        "duration" : 10103
+      }
+    }, {
+      "uid" : "c6064f7ea3e4f1ce",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621743764446,
+        "stop" : 0,
+        "duration" : -1621743764446
+      }
+    }, {
+      "uid" : "fa3560f4d1ade971",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621743323789,
+        "stop" : 1621743333891,
+        "duration" : 10102
+      }
+    }, {
+      "uid" : "80d2d29b74712ac9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621743265753,
+        "stop" : 0,
+        "duration" : -1621743265753
+      }
+    }, {
+      "uid" : "161230c92952b765",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621743224289,
+        "stop" : 0,
+        "duration" : -1621743224289
+      }
+    }, {
+      "uid" : "7b2f6a6b1dfaeaca",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621743146670,
+        "stop" : 0,
+        "duration" : -1621743146670
+      }
+    }, {
+      "uid" : "e41bc1881838f221",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621742887180,
+        "stop" : 1621742897276,
+        "duration" : 10096
+      }
+    }, {
+      "uid" : "cf739c1cab61463f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621742836124,
+        "stop" : 0,
+        "duration" : -1621742836124
+      }
+    }, {
+      "uid" : "3d2693947e9eebf8",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621742735159,
+        "stop" : 1621742745261,
+        "duration" : 10102
+      }
+    }, {
+      "uid" : "9372c24255ba574a",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621730238493,
+        "stop" : 1621730248537,
+        "duration" : 10044
+      }
+    }, {
+      "uid" : "ca670b46e30cca75",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729937617,
+        "stop" : 1621729947660,
+        "duration" : 10043
+      }
+    }, {
+      "uid" : "eaa5ec2f838c54f7",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729837908,
+        "stop" : 1621729847958,
+        "duration" : 10050
+      }
+    }, {
+      "uid" : "3b031e6ff382d2b2",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729754650,
+        "stop" : 1621729764686,
+        "duration" : 10036
+      }
+    }, {
+      "uid" : "eaa895305942f73a",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729682875,
+        "stop" : 1621729692919,
+        "duration" : 10044
+      }
+    }, {
+      "uid" : "35cf5c1be0e2eb3c",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729495427,
+        "stop" : 1621729505040,
+        "duration" : 9613
+      }
+    }, {
+      "uid" : "b6072ccb7632c6d6",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729256311,
+        "stop" : 1621729266358,
+        "duration" : 10047
+      }
+    }, {
+      "uid" : "33b32da7300bae9f",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729163073,
+        "stop" : 1621729173113,
+        "duration" : 10040
+      }
+    }, {
+      "uid" : "f6ee2bf3773b181c",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621729113631,
+        "stop" : 1621729123668,
+        "duration" : 10037
+      }
+    }, {
+      "uid" : "bb36fae6e6f092ba",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621728958006,
+        "stop" : 1621728968042,
+        "duration" : 10036
+      }
+    }, {
+      "uid" : "4489a21d06f3d28f",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621728900643,
+        "stop" : 1621728910677,
+        "duration" : 10034
+      }
+    }, {
+      "uid" : "f7f016fd5f9e1772",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621728777483,
+        "stop" : 1621728787539,
+        "duration" : 10056
+      }
+    }, {
+      "uid" : "a9a5d5bb704e7866",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span\" because element wasn't found",
+      "time" : {
+        "start" : 1621728715810,
+        "stop" : 1621728725845,
+        "duration" : 10035
+      }
+    }, {
+      "uid" : "f11d76f4dc0c1525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724104519,
+        "stop" : 1621724108549,
+        "duration" : 4030
+      }
+    }, {
+      "uid" : "afab599e648e28fc",
+      "status" : "broken",
+      "statusDetails" : "ReferenceError: SignOutPage is not defined",
+      "time" : {
+        "start" : 1621723959055,
+        "stop" : 1621723959058,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ade77c9bea4818cd.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

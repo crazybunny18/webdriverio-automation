@@ -1,0 +1,58 @@
+{
+  "uid" : "3b315c86ebf99131",
+  "name" : "When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"",
+  "historyId" : "fe69b41a7ec0e9313607ee5acc19fef6",
+  "time" : {
+    "start" : 1621719248527,
+    "stop" : 1621719248528,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(I register with \"<firstName>\", \"<lastName>\",\" <password>\",\" <DOBDD>\",\"<DOBMM>\",\"<DOBYY>\",\"<company>\",\"<address>\",\"<address2>\",\"<city>\",\"<state>\",\"<zip>\",\"<country>\",\"<mobile>\" and \"<addressalias>\"):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b315c86ebf99131.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

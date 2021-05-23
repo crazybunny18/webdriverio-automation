@@ -1,0 +1,132 @@
+{
+  "uid" : "9319b4a23d138916",
+  "name" : "When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"",
+  "historyId" : "fe69b41a7ec0e9313607ee5acc19fef6",
+  "time" : {
+    "start" : 1621719733995,
+    "stop" : 1621719733995,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\bunny\\OneDrive\\Documents\\Wipro Tasks\\webdriverio-automation\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(I register with \"<firstName>\", \"<lastName>\",\" <password>\",\" <DOBDD>\",\"<DOBMM>\",\"<DOBYY>\",\"<company>\",\"<address>\",\"<address2>\",\"<city>\",\"<state>\",\"<zip>\",\"<country>\",\"<mobile>\" and \"<addressalias>\"):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b315c86ebf99131",
+      "status" : "broken",
+      "statusDetails" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621719248527,
+        "stop" : 1621719248528,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fc7bc141b71c22",
+      "status" : "broken",
+      "statusDetails" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621719191788,
+        "stop" : 1621719191789,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9cbfbcf7f19d3c2f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621719105647,
+        "stop" : 0,
+        "duration" : -1621719105647
+      }
+    }, {
+      "uid" : "4acea7842ffb6835",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621719068034,
+        "stop" : 0,
+        "duration" : -1621719068034
+      }
+    }, {
+      "uid" : "20253dfc0eaed75c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621718964723,
+        "stop" : 0,
+        "duration" : -1621718964723
+      }
+    }, {
+      "uid" : "11bb073ca5f1d180",
+      "status" : "broken",
+      "statusDetails" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718859068,
+        "stop" : 1621718859068,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cb9392faad324ece",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621718750578,
+        "stop" : 0,
+        "duration" : -1621718750578
+      }
+    }, {
+      "uid" : "f293a410e671efba",
+      "status" : "broken",
+      "statusDetails" : "Step \"I register with \"Jagdish\", \"Nayak\",\" jagdish\",\" 24\",\"June\",\"2000\",\"WIPRO\",\"LA\",\"LA\",\"LA\",\"California\",\"222456\",\"United States\",\"998877\" and \"Brevery Hills\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718606775,
+        "stop" : 1621718606775,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9319b4a23d138916.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}
